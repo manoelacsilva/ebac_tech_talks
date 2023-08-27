@@ -7,6 +7,11 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    justify-content: center;
+
+    &:hover {
+        background-color: lighten(variables.$purple, 7%);
+    }
 
     &--primary {
         color: variables.$text-color;
